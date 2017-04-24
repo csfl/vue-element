@@ -1,0 +1,62 @@
+@import "~normalize.css"
+@import "~bulma"
+@import 'flex', 'color', 'layout', 'admin', 'cover-ele'
+
+body
+  font-size: 14px
+  min-width: 1180px
+  font-family: 'Microsoft YaHei','Helvetica Neue',Helvetica,Arial,sans-serif
+
+*
+  box-sizing: border-box
+
+div > *
+  vertical-align: middle
+
+#app
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  color: #2c3e50
+
+h1, h2
+  font-weight: normal
+
+ul
+  list-style-type: none
+  padding: 0
+
+.icons svg
+  height: 20px
+  width: 20px
+
+.bg-gray
+  background: #D3DCE6
+
+.fr
+  float: right
+.cb
+  clear: both
+
+$color-danger: #ff2d86
+
+// svg 的样式
+
+#phone-status-missed
+  fill: $color-danger
+
+#phone-status-disconnected
+  fill: #c0c6df
+
+.text-danger
+  color: $color-danger
+
+.text-blue
+  color: #45c8dc
+
+.pointer
+  cursor: pointer
+
+
+// 覆盖 bulma 的样式
+.input, .textarea
+  box-shadow: none !important

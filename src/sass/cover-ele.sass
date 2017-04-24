@@ -1,0 +1,47 @@
+// 覆盖 ele的样式
+$color-primary: #43c8dc
+
+.el-button--primary
+  background-color: $color-primary !important
+  border-color: $color-primary !important
+
+.el-input-group__append .el-button
+  background-color: $color-primary !important
+  color: #fff !important
+  border-radius: 0 !important
+
+.el-form-item__label
+  color: #333 !important
+
+.el-tabs__item.is-active
+  color: $color-primary !important
+
+.el-tabs__active-bar
+  background-color: $color-primary !important
+
+.el-button, .el-input__inner, .el-textarea__inner, .el-input-group__append, .el-input-group__prepend
+  border-radius: 0 !important
+
+.el-input__inner, .el-textarea__inner
+  background-color: #fffbfb !important
+  &:focus
+    border-color: $color-primary !important
+
+.el-table .cell
+  min-width: 100px
+
+.el-form-item
+  margin-bottom: 15px !important
+
+.el-pagination
+  display: flex
+  justify-content: flex-end
+  margin: 10px
+
+.el-pager
+  li.active
+    border-color: $color-primary !important
+    background-color: $color-primary !important
+  .number
+    border-radius: 0
+

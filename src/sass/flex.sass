@@ -1,0 +1,18 @@
+.flex
+  display: flex
+  &.direction-row
+    flex-direction: row
+  &.direction-column
+    flex-direction: column
+  .h-end
+    justify-content: flex-end
+  .v-center
+    align-items: center
+  &.center
+    justify-content: center
+    align-items: center
+
+
+@for $i from 1 through 20
+  .flex-#{$i}
+    flex: $i
