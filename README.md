@@ -13,4 +13,4 @@ npm run build
 
 ## 兼容
 
-目前只兼容 chrome
+目前只兼容 chrome, [demo](https://lluvio.github.io/vue-element/#/auth)
